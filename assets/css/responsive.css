@@ -1,0 +1,276 @@
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.header-top .time {
+    font-size: 16px;
+	}
+	.logo img {
+	    width: 75%;
+	    height: auto;
+	}
+	/*menu area start*/
+	nav.menu ul {
+	    min-height: 25px;
+	}
+	nav.menu ul li a {
+	    padding: 5px 10px;
+	    font-size: 14px;
+	}
+	/*menu area End*/
+	section.slider-area .slide-item {
+	    padding: 40px 0;
+	}
+	section.slider-area .slide-item h2 {
+   		 font-size: 3em;
+	}
+	section.slider-area .slide-item p {
+	    font-size: 18px;
+	}
+	section.slider-area .slide-item a{
+		padding: 5px 15px;
+		padding-top: 10px;
+	}
+	section{
+	    padding: 80px 50px 200px;
+	}
+	/*footer area*/
+	.footer-top div:nth-child(1), .footer-top div:nth-child(2), .footer-top div:nth-child(3), .footer-top div:nth-child(4) {
+    
+	    grid-column: span 2;
+	}
+	
+	/*teem Page*/
+	.teem-content h2 {
+	    font-size: 2em;
+	}
+	.teem-content p {
+	    font-size: 15px;
+	    line-height: 15px;
+	}
+	.teem-content a {
+	    font-size: 14px;
+	}
+	section.teem-info h2 {
+	    font-size: 2.8em;
+	}
+	.teemBox-item div:nth-child(1), .teemBox-item div:nth-child(2) {
+	    grid-column: span 6;
+	}
+	 .teemBox-item div:nth-child(3){
+	 	grid-column: span 12;
+	 }
+	 .teem-member-infor h4 {
+	    font-size: 2em;
+	}
+	.teem-member-infor p {
+	    font-size: 17px;
+	    margin-top: 20px;
+	}
+	.teem-member-infor .teem-link ul li a {
+	    font-size: 1.1em;
+	}
+	.teem-slider-area h2 {;
+	    font-size: 2.5em;
+	}
+	/*service Page*/
+	section.line, section.substation {
+	    text-align: center;
+	    margin: 0;
+	    padding: 0;
+	}
+	.contact-us {
+	    width: 80%;
+	}
+	.contact-us h2 {
+	    font-size: 3em;
+	}
+	.contact-us p {
+	    font-size: 1.1em;
+	    padding: 5px 0;
+	}
+	.contact-us a {
+	    font-size: 14px;
+	    padding: 5px 0;
+	}
+	.section-heading {
+	    width: 85%;
+	}
+	.section-heading h2 {
+    	font-size: 2.5em;
+	}
+	.section-heading p {
+	    font-size: 17px;
+	}
+	.container .column-4, .container-sec .column-4 {
+	    grid-column: span 6;
+	}
+	.container .column-3, .container-sec .column-3 {
+	    grid-column: span 6;
+	}
+	/*testimonial page*/
+
+	
+
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.responsive-header-bottom {
+	    display: flex;
+	    justify-content: space-between;
+	    width: 100%;
+	}
+	section {
+	    padding: 80px 50px 1600px;
+	}
+	.logo img {
+	    width: auto;
+	}
+	.responsive-menu a {
+	    color: #fff;
+	    font-size: 35px;
+	    margin: 25px 0;
+	    display: block;
+	    border: 1px solid #fff;
+	    width: 75px;
+	    height: 50px;
+	    text-align: center;
+	    line-height: 45px;
+	    border-radius: 5px;
+	}
+	.logo-area nav ul {
+	    display: flex;
+	    flex-direction: column;
+	}
+	.responsive-menu {
+	    visibility: visible;
+	    display: block;
+	}
+	.header-top .time {
+	    font-size: 35px;
+	}
+	nav {
+	  	margin: 0;
+	  	display: none;
+	}
+	.no-js .owl-carousel .slider-area, .owl-carousel.owl-loaded.slider-area {
+	    display: none;
+		visibility: hidden;
+	}
+		nav.menuList {
+	    margin: 0;
+	    display: block;
+	    visibility: visible;
+	    width: 100%;
+	    margin-top: 60px;
+	    z-index: 10;
+	}
+	/*recent Post Area*/
+	.recent-post-item div:nth-child(1), .recent-post-item div:nth-child(2) {
+	    grid-column: span 6;
+	} 
+	.back-date-post div:nth-child(1), .back-date-post div:nth-child(2) {
+	    grid-column: span 6;
+	}
+	.sigle-back-post div:nth-child(1), .sigle-back-post div:nth-child(2) {
+		grid-column:span 4;
+	}
+	/*footer area*/
+	.footer-top div:nth-child(1), .footer-top div:nth-child(2), .footer-top div:nth-child(3), .footer-top div:nth-child(4) {
+    
+	    grid-column: span 4;
+	}
+	/*teem page*/
+	section.teem-banner {
+	    display: none;
+	
+	}
+	section.teem-info h2 {
+	    font-size: 2em;
+	}
+	.teemBox-item div:nth-child(1), .teemBox-item div:nth-child(2), .teemBox-item div:nth-child(3){
+	    grid-column: span 12;
+	}
+	.teem-member-infor h4 {
+	    font-size: 2em;
+	}
+	.teem-member-infor p {
+	    font-size: 15px;
+	    margin-top: 20px;
+	}
+	.teem-member-infor .teem-link ul li a {
+	    font-size: 1em;
+	}
+
+	.teem-slider-area h2 {
+	    font-size: 2em;
+	}
+	/*Service page*/
+	section.service-banner {
+	    display: none;
+	}
+	section.line, section.substation{
+		margin: 0;
+		padding: 80px 0;
+	}
+	.container .column-4, .container-sec .column-4 {
+	    grid-column: span 12;
+	}.section-heading {
+	    width: 90%;
+	}
+	.section-heading h2 {
+    font-size: 2.5em;
+  	}
+	.section-heading p {
+	    font-size: 15px;
+	}
+	.container .column-2, .container-sec .column-2 {
+	    grid-column: span 12;
+	}
+	.container .column-3, .container-sec .column-3 {
+	    grid-column: span 12;
+	}
+	.lineDetail h3 {
+	    font-size: 1.5em;
+	}
+	/*contact page*/
+	.header-top div:nth-child(1) {
+	    grid-column: span 6;
+	    text-align: center;
+	    margin: 0 auto;
+	}
+	.header-top div:nth-child(2) {
+	    grid-column: span 6;
+	    text-align: center;
+	    margin: 0 auto;
+	}
+	/*service page*/
+	section.register-banner {
+	    display: none;
+	}
+	/*tools page*/
+	section.tools-banner {
+	    display: none;
+	}
+	/*testimonial Page*/
+	section.testimonial-banner {
+	    display: none;
+	}
+	.teem-sliderDtails h4 {
+	    font-size: 1em;
+	    margin: 5px 0;
+	}
+	.teem-sliderDtails p {
+	    font-size: 1em;
+	    line-height: 1em;
+	}
+	/*our contact page*/
+	section.contact-banner{
+		display: none;
+	}
+	section.contact-element div:nth-child(1) {
+	    grid-column: span 6;
+	}
+	section.contact-element div:nth-child(2) {
+	    grid-column: span 6;
+	}
+}
